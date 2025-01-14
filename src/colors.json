@@ -1,5 +1,13 @@
 [
     {
+        "name": "black",
+        "color": "#000000"
+    },
+    {
+        "name": "white",
+        "color": "#ffffff"
+    },
+    {
         "name": "slate",
         "codes": [
             {

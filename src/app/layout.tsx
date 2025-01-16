@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   description: "Contrast checker for TailwindCSS.",
   icons: {
     icon: "/favicon.ico",
+  },
+  openGraph: {
+    images: [
+      "/ogp.png"
+    ]
   }
 }
 

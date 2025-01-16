@@ -7,6 +7,9 @@ import "./index.css"
 export const metadata: Metadata = {
   title: "TailwindCSS Contrast Checker",
   description: "Contrast checker for TailwindCSS.",
+  icons: {
+    icon: "/favicon.ico",
+  }
 }
 
 export default function RootLayout({
@@ -17,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="TailwindCSS Contrast Checker" />
         <meta property="og:description" content="Contrast checker for TailwindCSS." />
         <meta property="og:image" content="ogp.png" />
